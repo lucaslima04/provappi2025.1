@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ColorWave Paints</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="navbox">
+        <img src="imagens/logo.png" alt="logo" id="imglogo">
+        <nav>
+            <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="carrinho.html">Carrinho</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="sechero">
+        <h2 id="impact">Transforme seu mundo com <span>ColorWave</span></h2>
+        <p id="subimpact">Explore nossa seleção de tintas vibrantes e inovadoras!</p>
+        <div id="boxbtn1">
+            <a href="produtos.html" class="btn">Ver Produtos</a>
+        </div>
+        <img src="imagens/cta1.png" alt="paleta de cores" id="imgcta1">
+        </section>
+
+        <section class="seccategorias">
+        <h3 id="tittle1">Nossos Produtos</h3>
+        
+        <div id="cont1">
+            <div id="boxcimento">
+                <div>
+                    <h3 class="tittle2">Cimento Queimado</h3>
+                    <p class="descriptioncat">Para quem busca um visual industrial, moderno e sofisticado. O cimento queimado oferece um acabamento liso e elegante, perfeito para pisos, paredes e até móveis. Transforme qualquer ambiente com estilo urbano e atemporal. </p>
+                </div>
+                <img src="imagens/cimento.png" alt="parede de cimento queimado" class="imgcateg">
+            </div>
+        </div>
+
+        <div id="cont2">
+            <div id="boxborracha">
+                <img src="imagens/borrachaliq.png" alt="pintura com borracha liquida" class="imgcateg">
+                <div>
+                    <h3 class="tittle2">Borracha Líquida</h3>
+                    <p class="descriptioncat">Solução inovadora para impermeabilização com alta flexibilidade! A borracha líquida forma uma camada protetora que sela, protege e resiste às intempéries. Ideal para telhados, calhas e áreas expostas, segurança e praticidade em cada aplicação.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="cont1">
+            <div id="boxacrilica">
+                <div>
+                    <h3 class="tittle2">Tinta Acrílica</h3>
+                    <p class="descriptioncat">Ideal para quem busca durabilidade e acabamento impecável. Com secagem rápida e fácil aplicação, essa tinta é perfeita para ambientes internos e externos. Deixe suas paredes com um visual moderno e resistente, escolha o brilho das cores que duram!</p>
+                </div>
+                <img src="imagens/acrilica.png" alt="parede de tinta acrilica" class="imgcateg">
+            </div>
+        </div>
+
+        <div id="cont2">
+            <div id="boxpremium">
+                <img src="imagens/premium.png" alt="parede de tinta premium" class="imgcateg">
+                <div>
+                    <h3 class="tittle2">Linha Premium</h3>
+                    <p class="descriptioncat">O topo da qualidade em cada detalhe. Nossa Linha Premium entrega pigmentação intensa, cobertura superior e acabamento profissional, ideal para quem não abre mão da excelência. Transforme seus espaços com o melhor que a cor pode oferecer. </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="cont1">
+            <div id="boxspray">
+                <div>
+                    <h3 class="tittle2">Tinta Spray</h3>
+                    <p class="descriptioncat">Versátil, prático e cheio de atitude! As tintas em spray são ideais para pequenos reparos, personalizações criativas e projetos DIY. Com secagem rápida e cobertura uniforme, é só agitar, aplicar e se surpreender com o resultado. </p>
+                </div>
+                <img src="imagens/spray.png" alt="pintura com spray" class="imgcateg">
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ColorWave Paints. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
