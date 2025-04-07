@@ -400,7 +400,7 @@ footer{
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     #impact {
         font-size: 2rem;
         width: 90%;
@@ -435,11 +435,7 @@ footer{
     .tittle2 {
         font-size: 1.2rem;
     }
-}
 
-
-
-    @media (max-width: 768px) {
     .nav-links {
         overflow: hidden;
         flex-direction: column;
@@ -466,9 +462,15 @@ footer{
     }
     
     .menu-toggle {
-            display: block; 
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
         }
 }
+
+
+
 
 
 
