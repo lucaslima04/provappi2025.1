@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ColorWave Paints</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="navbox">
+        <img src="imagens/logo.png" alt="logo" id="imglogo">
+        <nav>
+            <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="carrinho.html" style="color: #ffd700;">Carrinho</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="contcart">
+            <h1 class="titlecart">Seu Carrinho</h1>
+
+            <div class="cartitem">
+                <div class="iteminfo">
+                    <div class="itemname">Spray Azul Elétrico</div>
+                    <div class="itemprice">R$ 24,90</div>
+                </div>
+                <button class="itemremove">Remover</button>
+            </div>
+
+            <div class="cartitem">
+                <div class="iteminfo">
+                    <div class="itemname">Tinta Acrílica Premium</div>
+                    <div class="itemprice">R$ 89,90</div>
+                </div>
+                <button class="itemremove">Remover</button>
+            </div>
+
+            <div class="total">Total: R$ 114,80</div>
+            <button class="btnfinalizar">Finalizar Compra</button>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 ColorWave Paints. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

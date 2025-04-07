@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ColorWave Paints</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="navbox">
+        <img src="imagens/logo.png" alt="logo" id="imglogo">
+        <nav>
+            <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="carrinho.html">Carrinho</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="detalhescont">
+            <div class="imgproduto">
+                <p class="avaliacoes">⭐️⭐️⭐️⭐️☆ (47 avaliações)</p>
+                <img src="imagens/latacimento.png" alt="Cimento Queimado Cinza Urbano">
+            </div>
+        
+            <div class="infoproduto">
+                <h1 class="tituloproduto">Cimento Queimado - Cinza Urbano</h1>
+                <p class="preco"><span>R$ 119,90</span> R$ 89,90</p>
+        
+                <p class="descricao">
+                    O Cimento Queimado Cinza Urbano é perfeito para ambientes modernos e industriais. Com acabamento fosco e fácil aplicação, proporciona um visual sofisticado e duradouro para paredes e pisos internos.
+                </p>
+        
+                <div class="seletor">
+                    <label for="tamanho">Tamanho:</label>
+                    <select id="tamanho">
+                        <option>4,6 kg</option>
+                        <option>21,5 kg</option>
+                    </select>
+                </div>
+        
+                <div class="seletor">
+                    <label for="cor">Cor:</label>
+                    <select id="cor">
+                        <option>Cinza Urbano</option>
+                        <option>Branco Polar</option>
+                        <option>Concreto Profundo</option>
+                        <option>Areia Quente</option>
+                        <option>Céu Nublado</option>
+                        <option>Carvão Minimalista</option>
+                    </select>
+                </div>
+        
+        
+                <button class="btnadd">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 ColorWave Paints. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
