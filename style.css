@@ -889,12 +889,6 @@ textarea:focus {
     font-size: 1.2rem;
 }
 
-.preco span {
-    text-decoration: line-through;
-    color: #aaa;
-    margin-right: 10px;
-}
-
 .descricao {
     font-size: 1rem;
     line-height: 1.6;
