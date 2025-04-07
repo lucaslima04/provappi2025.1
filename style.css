@@ -185,6 +185,7 @@ span{
     );
     background-size: 3000% 3000%;
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     animation: floatcolors 8s linear infinite;
 }
