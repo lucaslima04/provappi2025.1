@@ -265,7 +265,7 @@ span{
 }
 
 
-#boxcimento, #boxacrilica, #boxspray{
+#boxcimento, #boxspray{
     padding-right: 17px;
     border-radius: 0 30px 30px 0;
     display: flex;
@@ -383,7 +383,7 @@ footer{
     color: #FFD700;
 }
 
-#prodcimento, #prodborracha, #prodpremium, #prodtintas{
+#prodcimento, #prodborracha, #prodpremium, #prodspray{
     width: 97%;
     height: fit-content;
     margin-top: 250px;
