@@ -21,24 +21,24 @@ As páginas seguem uma identidade visual coerente, com uso predominante das core
 
 ## 📂 Como Visualizar as Páginas
 
-Home (Página Inicial):
+**Home (Página Inicial):**
 
 Ao abrir o index.html, você verá a seção inicial com destaque visual e botões chamativos.
 
 Role para baixo para visualizar as categorias de tintas.
 
-Página de Produtos:
+**Página de Produtos:**
 
 No menu de navegação (topo da página), clique na em "produtos" para acessar a página com todos os produtos da loja.
 
-Página de Detalhes do Produto:
+**Página de Detalhes do Produto:**
 
 Basta clicar no botão "ver detalhes" abaixo de qualquer produto, aqui você verá a imagem ampliada, descrição, preços, opções de tamanho e cor, e um botão de “Adicionar ao carrinho”.
 
-Carrinho:
+**Carrinho:**
 
 No menu de navegação (topo da página), clique na em "carrinho" para acessar a página do carrinho e visualizar os itens adicionados.
 
-Contato:
+**Contato:**
 
 No menu de navegação (topo da página), clique em “Contato” para abrir a página com o formulário de envio e informações da loja.
